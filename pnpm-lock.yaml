@@ -15,6 +15,9 @@ importers:
         specifier: ^19.2.4
         version: 19.3.1(react@19.3.1)
     devDependencies:
+      '@types/chrome':
+        specifier: ^0.3.6
+        version: 0.3.6
       '@types/react':
         specifier: ^19.2.14
         version: 19.3.0
@@ -291,6 +294,9 @@ packages:
   '@topcli/prompts@4.0.0':
     resolution: {integrity: sha512-kkKYPb4k/6kRdnESt77B5vJrrYnYHIYczwv0P1c+tfN/IWEx3KZeKEHoUq7sImIyBEXWdA2uakIroD9pmRJziQ==}
     engines: {node: '>=22.0.0'}
+
+  '@types/chrome@0.3.6':
+    resolution: {integrity: sha512-NXCrCBefCHCKMVbkaxfBQqyP766Wg85S2FQhixCCxq7AtjJwoEaja2y5NSqCzpihIi9mPqhaF5RuybTnrdYD2Q==}
 
   '@types/estree@1.0.9':
     resolution: {integrity: sha512-GhdPgy1el4/ImP05X05Uw4cw2/M93BCUmnEvWZNStlCzEKME4Fkk+YpoA5OiHNQmoS7Cafb8Xa3Pya8m1Qrzeg==}
@@ -2106,6 +2112,10 @@ snapshots:
   '@rolldown/pluginutils@1.0.1': {}
 
   '@topcli/prompts@4.0.0': {}
+
+  '@types/chrome@0.3.6':
+    dependencies:
+      '@types/har-format': 1.2.16
 
   '@types/estree@1.0.9': {}
 
